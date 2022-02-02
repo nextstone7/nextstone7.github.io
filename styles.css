@@ -31,12 +31,6 @@ h1 {
 	
 }
 
-.container, .column-left, .column-center {
-	
-	clear: both;
-	
-}
-
 .column-right {
 	
 	float: right;
@@ -50,3 +44,33 @@ h1 {
 	margin-right: auto;
 	
 }
+
+/* 
+
+.container, .column-left, .column-center {
+	
+	clear: both;
+	
+} 
+
+*/
+
+/* 
+
+table {
+	
+	table-layout: fixed;
+	width: 70%;
+	text-align: center;
+	
+	border: 2px solid white; 	only meant to check the spacing of the columns
+	
+}
+
+th, td {
+	
+	border: 2px solid white; 	only meant to check the spacing of the columns
+	
+}
+
+*/
