@@ -12,6 +12,7 @@ h1 {
 
 .container {
 	
+	clear: both;
 	text-align: center;
 	width: 70%;
 	
