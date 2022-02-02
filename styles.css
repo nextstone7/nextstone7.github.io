@@ -14,7 +14,6 @@ h1 {
 	
 	text-align: center;
 	width: 70%;
-	/* clear: both; */
 	
 }
 
@@ -22,7 +21,6 @@ h1 {
 	
 	float: left;
 	width: 33.333%;
-	/* clear: both; */
 	
 }
 
@@ -30,7 +28,6 @@ h1 {
 	
 	display: inline-block; 
 	width: 33.333%;
-	/* clear: both; */
 	
 }
 
@@ -44,7 +41,6 @@ h1 {
 	
 	float: right;
 	width: 33.333%;
-	/* clear: both; */
 	
 }
 
@@ -54,23 +50,3 @@ h1 {
 	margin-right: auto;
 	
 }
-
-/* 
-
-table {
-	
-	table-layout: fixed;
-	width: 70%;
-	text-align: center;
-	
-	border: 2px solid white; 	only meant to check the spacing of the columns
-	
-}
-
-th, td {
-	
-	border: 2px solid white; 	only meant to check the spacing of the columns
-	
-}
-
-*/
