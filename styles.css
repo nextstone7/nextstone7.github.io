@@ -15,13 +15,12 @@ h1 {
 	clear: both;
 	text-align: center;
 	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
 	
 }
 
 .column-left {
 	
+	clear: both;
 	float: left;
 	width: 33.333%;
 	
@@ -29,6 +28,7 @@ h1 {
 
 .column-center {
 	
+	clear: both;
 	display: inline-block; 
 	width: 33.333%;
 	
@@ -38,6 +38,7 @@ h1 {
 	
 	float: right;
 	width: 33.333%;
+	/*clear: both;*/
 	
 }
 
