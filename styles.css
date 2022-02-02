@@ -20,17 +20,17 @@ h1 {
 
 .column-left {
 	
-	clear: both;
 	float: left;
 	width: 33.333%;
+	/* clear: both; */
 	
 }
 
 .column-center {
 	
-	clear: both;
 	display: inline-block; 
 	width: 33.333%;
+	/* clear: both; */
 	
 }
 
@@ -38,7 +38,7 @@ h1 {
 	
 	float: right;
 	width: 33.333%;
-	/*clear: both;*/
+	/* clear: both; */
 	
 }
 
