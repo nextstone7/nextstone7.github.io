@@ -1,7 +1,16 @@
 html {
 	
-	background-color: #040404;
+	background-image: url('images/gif/hueshift199.gif');
+	min-height: 500%;
+	min-width: 500%;
+	background-size: 100px;
 	color: white;
+	
+}
+
+body {
+	
+	background-color: transparent;
 	
 }
 
@@ -20,28 +29,30 @@ h1 {
 .container {
 	
 	text-align: center;
-	width: 70%;
+	height: 100%;
+	width: 100%;
+	position: fixed;
 	
 }
 
 .column-left {
 	
 	float: left;
-	width: 33.333%;
+	width: 45%;
 	
 }
 
 .column-center {
 	
 	display: inline-block; 
-	width: 33.333%;
+	width: 10%;
 	
 }
 
 .column-right {
 	
 	float: right;
-	width: 33.333%;
+	width: 45%;
 	
 }
 
@@ -80,49 +91,68 @@ a.walkin:active {
 
 }
 
-.terry {
+.suismile {
 	
-	border: 10px solid;
-	float: center;
-	background-color: black;
+	animation: suismile 0.1s infinite;
 	
 }
 
-.terry img {
+@keyframes suismile {
 	
-	opacity: 0%;
-	
-}
-
-.terry:hover img {
-	
-	animation: terry 1s 1;
-	animation-fill-mode: forwards;
+	0%   {background-color: white}
+	50%  {background-color: black}
+	100% {background-color: white}
 	
 }
 
-@keyframes terry {
+.epilepsy {
 	
-	0% {opacity: 0%}
-	100% {opacity: 100%}
-	
-}
-
-
-/*
-
-.terry-left {
-	
-	float: left;
-	width: 20%;
+	animation: epilepsy 0.1s infinite;
 	
 }
 
-.terry-right {
+@keyframes epilepsy {
 	
-	float: right;
-	width: 20%;
+	0%   {color: white}
+	50%  {color: black}
+	100% {color: white}
 	
+}
+
+/* 
+
+.wavy {
+	
+	animation-name: wavy;
+	animation-duration: 1.3s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	position: relative;
+	top: 0;
+	left: 0;
+	
+}
+
+@keyframes wavy {
+	
+	0% {
+		
+		top: 0px;
+	
+	}
+	
+	50% {
+		
+		top: -15px;
+	
+	}
+	
+	100% {
+		
+		top: 0px;
+	
+	}
+  
 }
 
 /* 
