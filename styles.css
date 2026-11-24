@@ -94,6 +94,7 @@ a.walkin:active {
 .terry {
 
 	background-color: red;
+	display: inline-block;
 
 }
 
