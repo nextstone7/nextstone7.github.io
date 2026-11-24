@@ -22,6 +22,12 @@ img {
 	
 }
 
+.image-wrapper {
+	
+	display: inline-flex;
+	
+}
+
 .tnr {
 	
 	font-family: "Times New Roman", Times, serif;
@@ -114,14 +120,14 @@ a.walkin:active {
 	border-style: solid;
 	border-color: #000000;
 	float: center;
-	display: inline-block;
+	/* display: inline-block; */
 	
 }
 
 .terry img {
 	
 	opacity: 0%;
-	display: inline-block;
+	/* display: inline-block; */
 	
 }
 
