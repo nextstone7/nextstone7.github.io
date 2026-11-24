@@ -94,7 +94,6 @@ a.walkin:active {
 .terry {
 
 	background-color: red;
-	display: inline-block;
 
 }
 
@@ -121,6 +120,7 @@ a.walkin:active {
 .terry img {
 	
 	opacity: 0%;
+	display: inline-block;
 	
 }
 
