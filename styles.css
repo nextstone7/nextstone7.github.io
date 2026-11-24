@@ -80,10 +80,19 @@ a.walkin:active {
 
 }
 
-.terry {
+.terryborderouter {
 	
 	border: 10px solid;
 	border-color: #FFFFFF;
+	float: center;
+	background-color: black;
+	
+}
+
+.terryborderinner {
+	
+	border: 10px solid;
+	border-color: #000000;
 	float: center;
 	background-color: black;
 	
