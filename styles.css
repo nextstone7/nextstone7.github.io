@@ -93,7 +93,8 @@ a.walkin:active {
 
 .terryborderouter {
 	
-	border: 10px solid;
+	border-width: clamp(2px, 2cqi, 10px);
+	border-style: solid;
 	border-color: #FFFFFF;
 	float: center;
 	background-color: black;
@@ -102,7 +103,8 @@ a.walkin:active {
 
 .terryborderinner {
 	
-	border: 10px solid;
+	border-width: clamp(2px, 2cqi, 10px);
+	border-style: solid;
 	border-color: #000000;
 	float: center;
 	background-color: black;
