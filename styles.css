@@ -114,6 +114,7 @@ a.walkin:active {
 	border-style: solid;
 	border-color: #000000;
 	float: center;
+	display: inline-block;
 	
 }
 
