@@ -99,39 +99,27 @@ a.walkin:active {
 
 .terry {
 
-	background-color: red;
+	background-color: blue;
+	opacity: 0%;
+	display: inline-block;
 
-}
-
-.terryborderouter {
-	
-	/* Minimum: 2px | Preferred: 2% of wrapper width | Maximum: 10px */
-	border-width: clamp(2px, 2cqi, 10px);
-	border-style: solid;
-	border-color: #FFFFFF;
-	float: center;
-	
-}
-
-.terryborderinner {
-	
-	/* Minimum: 2px | Preferred: 2% of wrapper width | Maximum: 10px */
-	border-width: clamp(2px, 2cqi, 10px);
-	border-style: solid;
-	border-color: #000000;
-	float: center;
-	/* display: inline-block; */
-	
 }
 
 .terry img {
 	
-	opacity: 0%;
-	/* display: inline-block; */
+	width: 100%;
+	height: auto;
+	border-style: solid;     				/* Inner border style */
+	border-color: #000000;					/* Inner border color */
+	border-width: clamp(2px, 1vw, 10px);	/* Inner border width, Minimum 2px, scales at 1% of viewport width, maximum 10px */
+	outline-style: solid;					/* Outer border style */
+	outline-color: #FFFFFF;					/* Outer border color */
+	outline-width: clamp(2px, 1vw, 10px);	/* Outer border width, Minimum 2px, scales at 1% of viewport width, maximum 10px */
+	outline-offset: 0px;           			/* Use a positive value to add a gap, or negative to pull inside */
 	
 }
 
-.terry:hover img {
+.terry:hover /* img */ {
 	
 	animation: terry 1s 1;
 	animation-fill-mode: forwards;
@@ -146,6 +134,27 @@ a.walkin:active {
 }
 
 /*
+
+.terryborderouter {
+	
+	* Minimum: 2px | Preferred: 2% of wrapper width | Maximum: 10px *
+	border-width: clamp(2px, 2cqi, 10px);
+	border-style: solid;
+	border-color: #FFFFFF;
+	float: center;
+	
+}
+
+.terryborderinner {
+	
+	* Minimum: 2px | Preferred: 2% of wrapper width | Maximum: 10px *
+	border-width: clamp(2px, 2cqi, 10px);
+	border-style: solid;
+	border-color: #000000;
+	float: center;
+	* display: inline-block; *
+	
+}
 
 .terry-left {
 	
