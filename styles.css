@@ -8,29 +8,63 @@ html {
 	
 }
 
+	.image-wrapper {
+		
+		display: inline-flex;
+		
+	}
+	
+	.nomargin {
+
+		margin: 0;
+	
+	}
+	
+	.tnr {
+	
+		font-family: "Times New Roman", Times, serif;
+	
+	}
+
 h1 {
 	
 	text-align: center;
 	
 }
 
+	a.walkin:link {
+
+		color: white;
+		text-decoration: none;
+
+	}
+
+	a.walkin:visited {
+
+		color: white;
+		text-decoration: none;
+
+	}
+
+	a.walkin:hover {
+
+		color: red;
+		text-decoration: none;
+
+	}
+
+	a.walkin:active {
+
+		color: white;
+		text-decoration: none;
+
+	}
+
 img {
 	
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
-	
-}
-
-.image-wrapper {
-	
-	display: inline-flex;
-	
-}
-
-.tnr {
-	
-	font-family: "Times New Roman", Times, serif;
 	
 }
 
@@ -41,27 +75,6 @@ img {
 	
 }
 
-.column-left {
-	
-	float: left;
-	width: 33.333%;
-	
-}
-
-.column-center {
-	
-	display: inline-block; 
-	width: 33.333%;
-	
-}
-
-.column-right {
-	
-	float: right;
-	width: 33.333%;
-	
-}
-
 .center {
 	
 	margin-left: auto;
@@ -69,69 +82,140 @@ img {
 	
 }
 
-a.walkin:link {
+	.column-left {
+		
+		float: left;
+		width: 33.333%;
+		
+	}
 
-	color: white;
-	text-decoration: none;
+	.column-center {
+		
+		display: inline-block; 
+		width: 33.333%;
+		
+	}
 
-}
+		.blog {
+			
+			display: flex;
+			flex-direction: row;
+		 /* flex-wrap: nowrap; */
+			align-items: center;
+			align-content: center;
+			justify-content: center;
+			
+		}
+		
+			a.bloglink:link {
 
-a.walkin:visited {
+				color: white;
+				text-decoration: underline;
 
-	color: white;
-	text-decoration: none;
+			}
 
-}
+			a.bloglink:visited {
 
-a.walkin:hover {
+				color: white;
+				text-decoration: none;
 
-	color: red;
-	text-decoration: none;
+			}
 
-}
+			a.bloglink:hover {
 
-a.walkin:active {
+				color: red;
+				text-decoration: underline;
 
-	color: white;
-	text-decoration: none;
+			}
 
-}
+			a.bloglink:active {
 
-.terry {
+				color: white;
+				text-decoration: none;
 
-	background-color: blue;
-	opacity: 0%;
-	display: inline-block;
+			}
+			
+			/*
+			
+			.bloglogo {
+				
+				position: relative;
+				width: 100%;
+				height: 100%;
+			
+			}
+			
+			.bloglogo img {
+				
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				transition: opacity 0.3s ease-in-out;
+				
+			}
+			
+			.bloglogo .bloglogo-back {
+				
+				opacity: 0;
+				
+			}
+			
+			.bloglogo:hover .bloglogo-back {
+				
+				opacity: 1;
+				
+			}
+			
+			*/
+			
 
-}
+	.column-right {
+		
+		float: right;
+		width: 33.333%;
+		
+	}
 
-.terry img {
-	
-	width: 100%;
-	height: auto;
-	border-style: solid;     				/* Inner border style */
-	border-color: #000000;					/* Inner border color */
-	border-width: clamp(2px, 1vw, 10px);	/* Inner border width, Minimum 2px, scales at 1% of viewport width, maximum 10px */
-	outline-style: solid;					/* Outer border style */
-	outline-color: #FFFFFF;					/* Outer border color */
-	outline-width: clamp(2px, 1vw, 10px);	/* Outer border width, Minimum 2px, scales at 1% of viewport width, maximum 10px */
-	outline-offset: 0px;           			/* Use a positive value to add a gap, or negative to pull inside */
-	
-}
+	.terry {
 
-.terry:hover /* img */ {
-	
-	animation: terry 1s 1;
-	animation-fill-mode: forwards;
-	
-}
+		/*
+		background-color: blue;
+		*/
+		opacity: 0%;
+		display: inline-block;
 
-@keyframes terry {
-	
-	0% {opacity: 0%}
-	100% {opacity: 100%}
-	
-}
+	}
+
+	.terry img {
+		
+		width: 75%;
+		height: auto;
+		border-style: solid;     				/* Inner border style */
+		border-color: #000000;					/* Inner border color */
+		border-width: clamp(2px, 1vw, 10px);	/* Inner border width, Minimum 2px, scales at 1% of viewport width, maximum 10px */
+		outline-style: solid;					/* Outer border style */
+		outline-color: #FFFFFF;					/* Outer border color */
+		outline-width: clamp(2px, 1vw, 10px);	/* Outer border width, Minimum 2px, scales at 1% of viewport width, maximum 10px */
+		outline-offset: 0px;           			/* Use a positive value to add a gap, or negative to pull inside */
+		
+	}
+
+	.terry:hover /* img */ {
+		
+		animation: terry 1s 1;
+		animation-fill-mode: forwards;
+		
+	}
+
+	@keyframes terry {
+		
+		0% {opacity: 0%}
+		100% {opacity: 100%}
+		
+	}
 
 /*
 
